@@ -1,0 +1,57 @@
+{
+"name": "hiyuki-supreme-v1",
+"version": "1.1.0",
+"description": "Base de bot para WhatsApp focada em desempenho, organização e facilidade na criação de comandos via plugins. Desenvolvida por MisheruModz.",
+"main": "index.js",
+"scripts": {
+"start": "sh start.sh cod"
+},
+"repository": {
+"type": "git",
+"url": "git+https://github.com/MisheruModz/HIYUKI-BASE-V1.git"
+},
+"author": "MisheruModz",
+"license": "MIT",
+"bugs": {
+"url": "https://github.com/MisheruModz/HIYUKI-BASE-V1/issues"
+},
+"homepage": "https://github.com/MisheruModz/HIYUKI-BASE-V1",
+"keywords": [
+"whatsapp",
+"bot",
+"baileys",
+"hiyuki",
+"hiyuki-base",
+"plugin-system"
+],
+"dependencies": {
+"@whiskeysockets/baileys": "7.0.0-rc.9",
+"@hapi/boom": "10.0.1",
+"axios": "1.15.2",
+"chokidar": "3.5.3",
+"colors": "1.4.0",
+"moment": "2.29.4",
+"pino": "7.11.0",
+"qrcode-terminal": "0.12.0",
+"node-cache": "5.1.2",
+"form-data": "4.0.0",
+"fluent-ffmpeg": "2.1.2",
+"node-webpmux": "3.1.7",
+"jimp": "^1.6.1",
+"yt-search": "2.10.4",
+"ytdl-core": "4.11.2",
+"spinnies": "0.5.1",
+"figlet": "1.5.2",
+"cfonts": "3.1.1",
+"chalk": "4.1.2",
+"file-type": "16.5.3",
+"fs-extra": "10.1.0",
+"node-fetch": "2.7.0",
+"readline": "1.3.0",
+"zod": "3.25.76",
+"ws": "8.14.2",
+"xml2js": "0.5.0",
+"youtube-dl-exec": "3.1.5",
+"mercadopago": "1.5.17"
+}
+}
