@@ -523,7 +523,7 @@ if (isAdminCmd && !isGroupAdmins && !isDono(sender)) {
 return reply('❄️ Este comando é apenas para administradores do grupo!', from, info)
 }
 
-if (isResenhaCmd && !gerenciadorComandos.ResenhaAtiva(from)) {
+if (isResenhaCmd && !gerenciadorComandos.ResenhaAtiva.get(from)) {
 return reply('🎐 O modo resenha não está ativo neste grupo!', from, info)
 }
 
