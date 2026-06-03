@@ -27,7 +27,7 @@ const { convertWhatsAppUser } = require('./arquivos/js/userManager.js')
 class NucleoDeCmds {
 constructor() {
 this.commands = new Map()
-this.categories = ['admin', 'dono', 'cmds-aleatorios', 'resenha', 'downloads', 'efeitos', 'midias', 'inteligencia-ia', 'rpg', 'premium']
+this.categories = ['admin', 'dono', 'cmds-aleatorios', 'resenha', 'downloads', 'efeitos', 'midias', 'inteligencia-ia', 'rpg', 'premium', 'menu']
 this.ResenhaAtiva = new Map()
 this.UsuariosPremium = new Set()
 this.CarregarPremium()
